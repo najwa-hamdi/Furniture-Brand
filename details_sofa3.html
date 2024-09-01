@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfort Zone</title>
+    <meta name="description"
+        content="Discover Elegant Home's exclusive range of luxury furniture designed to enhance your living spaces with style, comfort, and functionality.">
+    <meta name="keywords"
+        content="luxury furniture, modern furniture, designer furniture, home decor, living room, bedroom, dining room, furniture store">
+    <meta name="author" content="Nagwa Asmaa Menna">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="details_sofa3.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <!-- Logo section -->
+            <a class="navbar-brand" href="Home.html">
+                <img src="images/logo.png" alt="Company Logo" style="height: 81px;"> <!-- Adjust logo size if needed -->
+            </a>
+
+            <!-- Toggler button for mobile view -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+
+                <!-- Icons for additional actions -->
+                <div class="navIcons d-flex">
+                    <a href="products.html" class="me-3">
+                        <span class="material-symbols--search"></span>
+                    </a>
+                    <a href="sign in.html" class="me-3">
+                        <span class="bi--person"></span>
+                    </a>
+                    <a href="cart.html">
+                        <span class="mdi--cart-outline"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end of navbar -->
+
+
+    <div class="sec1">
+        <div class="product">
+            <img id="mainImage" src="image/sofa02.png" alt="Product Image">
+        </div>
+
+        <div class="details">
+
+            <a href="#" onclick="changeImage('image/sofa02.png')">
+                <div class="detail_0"><img src="image/sofa02.png" alt="Detail 4"></div>
+            </a>
+
+            <a href="#" onclick="changeImage('image/sofa31.png')">
+                <div class="detail_1"><img src="image/sofa31.png" alt="Detail 1"></div>
+            </a>
+            <a href="#" onclick="changeImage('image/sofa32.png')">
+                <div class="detail_2"><img src="image/sofa32.png" alt="Detail 2"></div>
+            </a>
+            <a href="#" onclick="changeImage('image/sofa33.png')">
+                <div class="detail_3"><img src="image/sofa33.png" alt="Detail 3"></div>
+            </a>
+            <a href="#" onclick="changeImage('image/sofa34.png')">
+                <div class="detail_4"><img src="image/sofa34.png" alt="Detail 4"></div>
+            </a>
+
+
+
+
+            <div class="product_name">
+                <span>Bella Sofa 2 Seater
+                </span>
+                <p>Put your feet up and relax in complete comfort on the new Bella Sofa. With compact, slim arms and a
+                    modern-day silhouette, this sofa is a beautiful blend of contemporary and classic design.</p>
+
+            </div>
+
+            <div class="color">
+                <span>Fabric & Colour : Classic Velvet Caramel</span>
+                <div class="circle">
+                    <div class="circle1"> </div>
+                    <div class="circle2"> </div>
+                    <div class="circle3"> </div>
+                    <div class="circle4"> </div>
+                    <div class="circle5"> </div>
+                </div>
+
+
+            </div>
+
+            <div class="price">
+                <span>2,175.00 LE</span>
+                <div class="stock">
+                    <span class="lets-icons--check-fill">✔️</span>
+                </div>
+                <p>In Stock</p>
+            </div>
+
+            <div class="cart">
+                <a href="cart.html"> <img src="cart-removebg-preview.png" alt="Cart"></a>
+            </div>
+
+
+
+            <div class="add_to_cart"
+                onclick="addToCart({ name: 'Bella Sofa 2 Seater', price: 2175, image: 'image/sofa02.png' })">
+                <span>Add to cart</span>
+
+            </div>
+
+        </div>
+
+        <div class="sec2">
+            <div class="discription">
+                <span>
+                    Product Discription
+                </span>
+                <p>The perfect sofa to curl up on with a good book and a cup of tea, the Kew armchair is ideal for
+                    adding an extra seat to your living room. This cosy chair is just as snuggly as it is stylish, with
+                    a curved silhouette that references the current trend in furniture. Its Mid-Century-inspired wooden
+                    legs and elegant design give the chair a timeless appeal.
+
+                    Photographed here in Caramel Classic Velvet. The leg colour in the photograph is Bleached Oak. We
+                    also offer a matching sofa and corner sofa.
+
+                    All other images are computer generated as a colour reference with a Bleached Oak leg. We recommend
+                    you order a free fabric swatch to see your chosen material up close before ordering your sofa,
+                    armchair or footstool!</p>
+            </div>
+
+            <div class="dist">
+                <span>Dimensions & Info</span>
+                <div class="textsize">
+                    <p id="height">Height</p>
+                    <p id="width">Width</p>
+                    <p id="Depth">Depth</p>
+                    <p id="Weight">Weight</p>
+
+                </div>
+            </div>
+            <div class="hr">
+                <hr>
+            </div>
+
+            <div class="size">
+                <p id="hcm">84cm</p>
+                <p id="wcm">92cm</p>
+                <p id="dcm">41cm</p>
+                <p id="wkg">25.0kg</p>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="sec3">
+            <img src="image/advert_prduct.png">
+            <span>
+                Get To Know
+            </span>
+            <p>Our Kew armchair is handmade by a team of artisan makers to the highest standard. The stylish sofa is
+                produced by a company dedicated to reducing their carbon footprint through using FSC-certified wood and
+                using renewable energy, among other methods. Elegant hardwood legs, foam-filled cushions and a solid
+                wood frame combine to create a sophisticated armchair made to last.</p>
+        </div>
+
+
+        <div class="sec4">
+            <div>
+                <span>Dimensions & Specifications</span>
+
+            </div>
+
+            <img src="image/heighproduct.png">
+        </div>
+
+
+        <div class="sec5">
+            <!-- What Our Clients Say Section -->
+            <section id="clients">
+                <h2>What Our Clients Say</h2>
+                <div class="testimonial" id="testimonial1">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><span class="ic--baseline-format-quote"></span></div>
+                        <p>Outstanding quality! Our dining set has transformed our home. We constantly get compliments.
+                            Highly
+                            recommend!</p>
+                        <h3>Mohamed K.</h3>
+                        <p class="location">Cairo</p>
+                        <div class="profile-pic" style="background-image: url('image/review1.png');">
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial" id="testimonial2">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><span class="ic--baseline-format-quote"></span></div>
+                        <p>Impressed by the sustainable materials and attention to detail. Exceptional customer
+                            service!<br><br></p>
+                        <h3>Mai B.</h3>
+                        <p class="location">Giza</p>
+                        <div class="profile-pic" style="background-image: url('image/review2.png.jpg');"></div>
+                    </div>
+                </div>
+                <div class="testimonial" id="testimonial3">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><span class="ic--baseline-format-quote"></span></div>
+                        <p>The perfect custom sofa—comfortable, stylish, and exactly what we wanted. Highly recommended!
+                        </p>
+                        <h3>Samy M.</h3>
+                        <p class="location">Cairo</p>
+                        <div class="profile-pic" style="background-image: url('image/review3.png.jpg');"></div>
+                    </div>
+                </div>
+                    
+            </section>
+
+
+        </div>
+        <div class="sec6">
+
+            <div class="love">
+                <span>
+                    More You Might Love
+                </span>
+            </div>
+            <div class="products">
+                <div class="prod">
+                    <div class="imge2"></div>
+                    <div class="sofa2">Jessica Natural Linen Two Seater Sofa</div>
+                    <div class="like2">
+                        <a href="#"><img src="like-removebg-preview.png" alt="Like"></a>
+                    </div>
+                    <div class="price2"><span>2,005.00 LE</span></div>
+                    <div class="shopping2">
+                        <a href="#"><img src="cart-removebg-preview.png" alt="Cart"></a>
+                    </div>
+                </div>
+
+
+
+                <div class="prod">
+                    <div class="imge3"></div>
+                    <div class="sofa2">Richmond Armchair</div>
+                    <div class="like2">
+                        <a href="#"><img src="like-removebg-preview.png" alt="Like"></a>
+                    </div>
+                    <div class="price2"><span>1,775.00 LE</span></div>
+                    <div class="shopping2">
+                        <a href="#"><img src="cart-removebg-preview.png" alt="Cart"></a>
+                    </div>
+                </div>
+
+
+                <div class="prod">
+                    <div class="imge4"></div>
+                    <div class="sofa2">Didsbury Armchair Champange Clever Velvet</div>
+                    <div class="like2">
+                        <a href="#"><img src="like-removebg-preview.png" alt="Like"></a>
+                    </div>
+                    <div class="price2"><span>747.50 LE</span></div>
+                    <div class="shopping2">
+                        <a href="#"><img src="cart-removebg-preview.png" alt="Cart"></a>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-container">
+                <!-- Left Section -->
+                <div class="footer-left">
+                    <img src="images/logo.png" alt="Logo" class="footer-logo">
+                    <p>Crafting timeless furniture pieces that blend style with comfort. Our mission is to bring warmth
+                        and elegance to every home.</p>
+                    <div class="footer-social-icons">
+                        <a href="https://facebook.com" class="icon" aria-label="Facebook">
+                            <span class="mdi--facebook"></span>
+                        </a>
+                        <a href="https://instagram.com" class="icon" aria-label="Instagram">
+                            <span class="iconoir--instagram"></span>
+                        </a>
+                        <a href="https://twitter.com" class="icon" aria-label="Twitter">
+                            <span class="ant-design--x-outlined"></span>
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Middle Section (Navigation Links) -->
+                <div class="footer-middle">
+                    <a href="Home.html">Home</a>
+                    <a href="about.html">About us</a>
+                    <a href="products.html">Products</a>
+                    <a href="contact.html">Contact us</a>
+                </div>
+
+                <!-- Right Section (Email Subscription) -->
+                <div class="footer-right">
+                    <p>Enter your email to get notified about our new products</p>
+                    <div class="email-subscription">
+                        <input type="email" placeholder="Email">
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <p class="footer-bottom-text">© 2024 [Comfort Zone]. All Rights Reserved.</p>
+        </footer>
+
+
+        <script src='product details.js'></script>
+
+</body>
+
+</html>
